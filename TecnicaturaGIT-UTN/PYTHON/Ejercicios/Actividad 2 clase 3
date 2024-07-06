@@ -1,0 +1,15 @@
+# Función para solicitar información del libro
+def solicitar_informacion_libro():
+  # Solicitar el título del libro
+  titulo = input("Proporciona el título del libro: ")
+
+  # Solicitar el autor del libro
+  autor = input("Proporciona el autor del libro: ")
+
+  # Imprimir la información del libro en el formato deseado
+  print(f"Proporciona el título: {titulo}")
+  print(f"Proporciona el autor: {autor}")
+  print(f"{titulo} fue escrito por {autor}")
+
+# Llamar la función para solicitar la información del libro
+solicitar_informacion_libro()
